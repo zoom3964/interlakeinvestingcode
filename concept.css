@@ -1,0 +1,70 @@
+body {
+    background-color: #fff5f5;
+    margin: 0 auto;
+}
+.content {
+  position: relative;
+  padding: 20px;
+  top: 140px;
+}
+head {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  position:fixed;
+  border-bottom: 1px solid white;
+
+}
+ul#navigation {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+  text-align: left;
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a#roundbutton {
+  color:white;
+  background-color: Green;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+a#roundbutton:hover {
+    background-color: red;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+  color:#0eb32f;
+  transition-duration: 0.4s;
+}
+
+a:visited {
+  color: none;
+}
