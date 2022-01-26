@@ -1,3 +1,19 @@
+header {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  position:fixed;
+  border-bottom: 1px solid white;
+  overflow: hidden;
+  top: 0;
+  z-index:9999;
+}
+ul#navigation {
+  list-style-type: none;
+  text-align: left;
+  overflow: hidden;
+}
+
 body {
     background-color: #fff5f5;
     margin: 0 auto;
@@ -5,7 +21,7 @@ body {
 .content {
   position: relative;
   padding: 20px;
-  top: 140px;
+  top: 120px;
 }
 head {
   background-color: white;
@@ -18,19 +34,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Varela Round', sans-serif;
-}
-
-header {
-  display: inline-block;
-  background-color: white;
-  width: 100%;
-  position:fixed;
-  border-bottom: 1px solid white;
-
-}
-ul#navigation {
-  list-style-type: none;
-  text-align: left;
+    padding-bottom: 50px;
 }
 
 li {
@@ -68,3 +72,15 @@ a:hover {
 a:visited {
   color: none;
 }
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+h2 {
+  text-align: center;
+  color: green;
+}
+
