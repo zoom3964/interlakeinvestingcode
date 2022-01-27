@@ -68,3 +68,9 @@ a:hover {
 a:visited {
   color: none;
 }
+
+b:hover {
+  color: Green;
+  transition-duration: 0.6s
+}
+
