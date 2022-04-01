@@ -22,6 +22,18 @@ body {
   position: relative;
   padding: 20px;
   top: 120px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.concepts p{
+  padding-left: 30px;
+  line-height: 25px;
+  font-family: 'Varela Round', sans-serif;
+}
+.concepts h3{
+  line-height: 15px;
+  padding-top: 15px;
 }
 head {
   background-color: white;
@@ -37,6 +49,9 @@ h1 {
     padding-bottom: 50px;
 }
 
+h4{
+  font-family: 'Varela Round', sans-serif;
+}
 li {
   font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
   text-align: left;
