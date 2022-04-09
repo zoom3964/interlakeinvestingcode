@@ -8,6 +8,11 @@ header {
   top: 0;
   z-index:9999;
 }
+
+li#image {
+  padding-right: 50px;
+}
+
 ul#navigation {
   list-style-type: none;
   text-align: left;
@@ -29,11 +34,12 @@ body {
 .concepts p{
   padding-left: 30px;
   line-height: 25px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .concepts h3{
   line-height: 15px;
   padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
 }
 head {
   background-color: white;
@@ -45,15 +51,15 @@ head {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Varela Round', sans-serif;
-    padding-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
 }
 
 h4{
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 li {
-  font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+  font-family: 'Oswald', sans-serif;
   text-align: left;
   display: inline-block;
   margin-right: 1%;
@@ -95,6 +101,7 @@ iframe {
 }
 
 h2 {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   color: green;
 }
