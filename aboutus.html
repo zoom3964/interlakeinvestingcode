@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Interlake Investing Curriculum</title>
     <link rel="stylesheet" href="aboutus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;665;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -34,14 +37,91 @@
 
 <div class="content">
   <h1>About Us</h1>
-  <p>We’re a group of high-school students with a passion for making our money working for us. We’ve managed to master the basics of options-trading, and we want to make sure you can too!
+  <h4>We’re a group of high-school students with a passion for making our money working for us. We’ve managed to master the basics of options-trading, and we want to make sure you can too!
 
-  <b> Max Druckman</b>, <b>Dylan Wallace</b> and <b>Peter Lee</b> are our curriculum writers. They’re the brains of the operation.
+Max Druckman, Dylan Wallace, and Peter Lee are our curriculum writers. They’re the brains of the operation. Max and Peter are our instructors who recorded the videos you're watching now. Pavan Venkatakrishnan is our primary organizer. He developed the format for this website and fascilitated the content creating process.
 
-  <b>Dylan</b> and <b>Pavan Venkatakrishnan</b> helped set this site up and record the videos you’re watching now.
+Suraj Madira assisted us throughout the whole process as well as gathered all external resources linked on this website.
+</h4>
+<div class="slideshow-container">
 
-  <b>Suraj Madira</b> wrote all the written resources on this page. 
-  </p>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="Dylan.png" style="width:100%" height=600>
+    <div class="text">Dylan Wallace</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="Pavan.png" style="width:100%" height=600>
+    <div class="text">Pavan Venkatakrishnan</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="Peter.png" style="width:100%" height=600>
+    <div class="text">Peter Lee</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="Max.jpg" style="width:100%" height=600>
+    <div class="text">Max Druckman</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="Suraj.png" style="width:100%" height=600>
+    <div class="text">Suraj Madira</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+  <br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+
+</div>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
+
 </div>
 </body>
 </html>
