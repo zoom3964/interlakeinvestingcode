@@ -17,7 +17,8 @@ head {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
 }
 
 header {
@@ -26,15 +27,42 @@ header {
   width: 100%;
   position:fixed;
   border-bottom: 1px solid white;
-
+  overflow: hidden;
+  top: 0;
+  z-index:9999;
 }
+
+ul#books {
+  text-align: center;
+}
+
+li#book {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+img#book {
+  height: 400px;
+  width: 300px;
+}
+
+img#book:hover {
+  height: 420px;
+  width: 315px;
+  transition-duration: 0.5s;
+}
+li#image {
+  padding-right: 50px;
+}
+
 ul#navigation {
   list-style-type: none;
   text-align: left;
 }
 
 li {
-  font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+  font-family: 'Oswald', sans-serif;
   text-align: left;
   display: inline-block;
   margin-right: 1%;
