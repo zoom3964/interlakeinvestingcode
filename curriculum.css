@@ -21,7 +21,9 @@ body {
 .content {
   position: relative;
   padding: 20px;
-  top: 120px;
+  top: 140px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 head {
   background-color: white;
@@ -33,12 +35,16 @@ head {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Oswald', sans-serif;
     padding-bottom: 50px;
 }
 
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
 li {
-  font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+  font-family: 'Oswald', sans-serif;
   text-align: left;
   display: inline-block;
   margin-right: 1%;
@@ -46,6 +52,9 @@ li {
   vertical-align: middle;
 }
 
+li#image {
+  padding-right: 50px;
+}
 
 a {
   text-decoration: none;
@@ -73,14 +82,21 @@ a:visited {
   color: none;
 }
 
-iframe {
-  margin-left: auto;
-  margin-right: auto;
-  display: block
+ul#videos {
+  text-align: center;
+}
+
+li#vid {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.content h4 {
+  line-height: 25px;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2 {
   text-align: center;
   color: green;
 }
-
